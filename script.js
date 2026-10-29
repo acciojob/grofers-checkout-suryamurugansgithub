@@ -6,7 +6,7 @@ const getSum = () => {
 //Add your code here
 	const prices= document.querySelectorAll(".price")
 	let total=0
-  prices.forEacch(item =>{
+  prices.forEach(item =>{
 	  total+=Number(item.textContent)
   })
 	    const row = document.createElement("tr");
