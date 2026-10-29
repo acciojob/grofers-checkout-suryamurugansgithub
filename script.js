@@ -4,10 +4,10 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
 //Add your code here
-	const prices= document.querySelector(".price")
+	const prices= document.querySelectorAll(".price")
 	let total=0
   prices.forEacch(item =>{
-	  total+=Number(price.textContent)
+	  total+=Number(item.textContent)
   })
 	    const row = document.createElement("tr");
     const cell = document.createElement("td");
