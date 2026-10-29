@@ -6,8 +6,8 @@ const getSum = () => {
 //Add your code here
 	const prices= document.querySelectorAll(".price")
 	let total=0
-  prices.forEach(item =>{
-	  total+=Number(item.textContent)
+  prices.forEach(price =>{
+	  total+=Number(price.textContent)
   })
 	    const row = document.createElement("tr");
     const cell = document.createElement("td");
